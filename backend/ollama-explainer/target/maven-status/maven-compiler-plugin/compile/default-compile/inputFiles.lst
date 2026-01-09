@@ -1,0 +1,9 @@
+D:\Ai\IH\backend\ollama-explainer\src\main\java\com\ollama\backend\model\Chat.java
+D:\Ai\IH\backend\ollama-explainer\src\main\java\com\ollama\backend\ExplainerApplication.java
+D:\Ai\IH\backend\ollama-explainer\src\main\java\com\ollama\backend\model\User.java
+D:\Ai\IH\backend\ollama-explainer\src\main\java\com\ollama\backend\controller\AuthController.java
+D:\Ai\IH\backend\ollama-explainer\src\main\java\com\ollama\backend\controller\service\OtpService.java
+D:\Ai\IH\backend\ollama-explainer\src\main\java\com\ollama\backend\repo\ChatRepo.java
+D:\Ai\IH\backend\ollama-explainer\src\main\java\com\ollama\backend\config\CorsConfig.java
+D:\Ai\IH\backend\ollama-explainer\src\main\java\com\ollama\backend\controller\ExplainController.java
+D:\Ai\IH\backend\ollama-explainer\src\main\java\com\ollama\backend\repo\UserRepo.java

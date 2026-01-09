@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Code Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <div class="sidebar">
+            <h2 class="logo">AI Assistant</h2>
+            <button class="new-chat-btn" onclick="startNewChat()">+ New Chat</button>
+            
+            <div class="history-section">
+                <p class="section-label">Recent History</p>
+                <div id="chatHistory" class="history-list"></div>
+            </div>
+
+            <div class="auth-section">
+    <p id="userDisplay" style="color: var(--text-dim); font-size: 0.9rem; margin-bottom: 10px;"></p>
+    
+    <button id="loginBtn" onclick="window.location.href='login.html'">Login</button>
+    <button id="logoutBtn" onclick="logout()" style="display:none;">Logout</button>
+</div>
+        </div>
+
+        <div class="chat-area">
+            <div id="messages">
+                <div class="ai-message">Hello! Paste your code below and I will explain it for you.</div>
+            </div>
+            
+            <div class="input-bar">
+                <div class="input-container">
+                    <textarea id="codeInput" placeholder="Paste your code here..." rows="1"></textarea>
+                    <button id="sendBtn">➤</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

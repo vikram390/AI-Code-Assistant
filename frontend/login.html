@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="auth">
+
+    <div class="auth-box">
+    <h2 id="authTitle">Login</h2>
+
+    <input id="authEmail" placeholder="Enter Email">
+    
+    <div id="otpSection" style="display: none;">
+        <input id="authOtp" placeholder="Enter 6-Digit OTP">
+    </div>
+
+    <button id="authBtn" onclick="handleAuth()">Send OTP</button>
+    
+    <p id="timerDisplay" style="color: #a855f7; font-size: 0.8rem; margin-top: 10px;"></p>
+    <p id="toggleLink">New user? <a href="register.html">Register</a></p>
+</div>
+
+    <script src="auth.js"></script>
+</body>
+
+</html>

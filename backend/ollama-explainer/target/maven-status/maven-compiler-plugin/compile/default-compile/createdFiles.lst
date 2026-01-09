@@ -1,0 +1,10 @@
+com\ollama\backend\model\User.class
+com\ollama\backend\controller\ChatRequest.class
+com\ollama\backend\repo\ChatRepo.class
+com\ollama\backend\repo\UserRepo.class
+com\ollama\backend\config\CorsConfig.class
+com\ollama\backend\controller\service\OtpService.class
+com\ollama\backend\ExplainerApplication.class
+com\ollama\backend\controller\AuthController.class
+com\ollama\backend\controller\ExplainController.class
+com\ollama\backend\model\Chat.class
